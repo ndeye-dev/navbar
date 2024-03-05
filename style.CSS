@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid black;
+    padding: 0px;
+    margin: 0px;
+
+}
+.flex P{
+    color: black;
+    border: none;
+    border-radius: 50% ;
+    top: -10px;
+    text-align: center;
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.61);
+}
+span{
+    position: relative;
+    top: 20px;
+}
+.flex a{
+    color: gray;
+    padding: 5px;
+}
+.left{
+    display: flex;
+}
+.bas{
+    margin-left: 300px;
+}
+@media screen and (max-width:760px) {
+    .flex{
+       display: flex;
+    }
+
+    a{
+        color: grey;
+        padding: 5px;
+    }
+   .bas{
+    margin-left: 0px;
+   }
+}
